@@ -16,7 +16,7 @@ export default function Home() {
         </Link>
       </Infos>
       <Logo>
-        <Img src="/images/foto.png" alt="logo" />
+        <Img src="./images/foto.png" alt="logo" />
       </Logo>
      </Content>
    </Container>
