@@ -22,7 +22,7 @@ export const Title = styled.div`
 
 export const NavLinks = styled.nav`
   display: flex;
-  gap: 20px;
+  gap: 10px;
 
   @media (max-width: 560px) {
     flex-direction: column;
@@ -38,11 +38,12 @@ export const NavLinks = styled.nav`
     transition: 0.5s;
 
     a {
-      margin-top: 100px;
+      margin-top: 20px;
       display: flex;
       align-items: center;
       justify-content: space-around;
     }
+    
   }
 `;
 
@@ -50,7 +51,10 @@ export const Ancora = styled.p`
   font-size: 20px;
   height: 100px;
   transition: 0.3s;
-  
+  width: 100%;
+  line-height: 100px;
+  color: white;
+
   &.active {
     background-color: black;
   }
