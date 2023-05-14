@@ -46,7 +46,7 @@ export const NavLinks = styled.nav`
   }
 `;
 
-export const Ancora = styled.a`
+export const Ancora = styled.p`
   font-size: 20px;
   height: 100px;
   transition: 0.3s;
